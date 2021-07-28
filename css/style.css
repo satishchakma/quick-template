@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+img{
+	max-width: 100%;
+}
+
+/*header css*/
+header{
+	    border-bottom: 2px solid #3b506c40;
+}
+header .row{
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+	max-width: 20%;
+
+}
+.logo a{}
+.logo a img{}
+
+nav{
+	flex-basis: 80%;
+	max-width: 80%;
+}
+nav ul{
+	display: flex;
+	list-style: none; 
+	justify-content: flex-end; 
+}
+nav ul li{}
+nav ul li a{
+	display: block;
+	padding: 40px 15px;
+	color: #3b506c;
+	text-decoration: none;
+	transition: .3s;
+	font-weight: 600;
+}
+nav ul li a:hover{
+	color: #0c66ff;
+}
+
+/*banner css*/
+.banner{
+	padding: 50px 0;
+}
+.content{
+	/* font-size: 25px; */
+	text-align: center;
+}
+.content h1{
+    margin: 0;
+    font-size: 55px;
+    color: #3b506c;
+}
+.content h1 span{
+    display: block;
+    color: #0c66ff;
+}
+.content img{
+    max-width: 500px;
+    transition: .8s;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 20px #bebebe, -20px -20px 60px #ffffff;
+}
+.content img:hover{
+	 box-shadow: 10px 10px 20px #bebebe, -20px -20px 60px #ffffff;
+	
+}
+
+.content p{
+    line-height: 1.5rem;
+    color: #3b506c;
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+/*feature css*/
+.feature{}
+.feature .row{
+	justify-content: center;
+}
+.feature-content{}
+.feature-content h2 {
+    font-size: 40px;
+    color: #3b506c;
+}
+.feature-content h2 span {
+    color: #ff6484;
+}
+.feature-content p{
+    line-height: 1.4;
+    color: #3b506c;
+}
+.text-right{
+	text-align: right;
+}
+/*blog css*/
+.col-3{
+    padding: 0px 15px;
+    max-width: 33%;
+    flex-basis: 33%;
+    box-sizing: border-box;
+}
+.blog{
+    padding: 50px 0;
+}
+.post{
+    padding: 40px;
+    cursor: pointer;
+    transition: .9s;
+    box-shadow: inset 10px 10px 20px #bebebe, -20px -20px 60px #ffffff;
+}
+.post:hover{
+	 box-shadow: 10px 10px 20px #bebebe, -20px -20px 60px #ffffff;
+	
+}
+.one{
+    background-color: #FDEBED;
+}
+.two{
+    background-color: #EBF9F4;
+}
+.three{
+    background-color: #FFF7E8;
+}
+.post h3{
+    font-size: 22px;
+    color: #3b506c;
+    padding-bottom: 10px;
+}
+.post p{
+    line-height: 1.4;
+    color: #3b506c;
+}
+.post img{
+    display: block;
+    max-height: 160px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+/*footer css*/
+footer{
+    background-color: #008AFF;
+    padding: 30px 0;
+    text-align: center;
+}
+footer p{
+    color: #ffffff6b;
+}
+footer p span{
+	 color: #ffffff;
+}
+
+
